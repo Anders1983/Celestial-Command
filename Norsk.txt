@@ -6,7 +6,7 @@
 #4# Avslutt
 #5# Fortsett
 #6# Pause
-#7# Instillinger
+#7# Innstillinger
 #8# Lagre
 #9# Avslutt
 #10# Respawn
@@ -50,7 +50,7 @@
 #48# SAVE DATO
 #49# GAME TIME
 #50# VERSION
-#51# CREATE VERDEN
+#51# LAGE VERDEN
 #52# Bekreft sletting av verden
 #53# Tilbake
 #54# Slett
@@ -66,9 +66,9 @@
 #64# PASSORD
 #65# MAX SPILLERE
 #66# sandkassemodus
-#67# STASJONER BELØP
-#68# FIENDER BELØP
-#69# asteroider BELØP
+#67# STASJONER ANTALL
+#68# FIENDER ANTALL
+#69# ASTEROIDER ANTALL
 #70# Ny verden
 #71# TILBAKE
 #72# START GAME
@@ -97,8 +97,8 @@
 #95# Grid
 #96# Trade
 #97# BUILD
-#98# dekonstruere
-#99# sandkasse TOOLS
+#98# Dekonstruere
+#99# Sandkasse TOOLS
 #100# LEGG RESSURSER
 #101# Oxygen
 #102# Hydrogen
@@ -108,7 +108,7 @@
 #106# Food
 #107# Crew
 #108# AI
-#109# Duplicate valgt skip
+#109# Kopiere valgt skip
 #110# Set faction til venn
 #111# Set faction til fienden
 #112# Lag et fiendtlig skip
@@ -121,7 +121,7 @@
 #119# Debris kaste modus
 #120# Apply
 #121# Forkast
-#122# trykke på en tast
+#122# trykk på en tast
 #123# Sett ny hurtigtast
 #124# Avstand
 #125# Relativ hastighet
@@ -151,7 +151,7 @@
 #149# PREV SHIP
 #150# NESTE SHIP
 #151# Total MASS
-#152# treghetsmoment
+#152# Treghetsmoment
 #153# MODULE MASS
 #154# Ikke koblet til strøm lagring
 #155# Strømforbruk
@@ -170,7 +170,7 @@
 #168# Høyreklikk - Vis innhold
 #169# Høyreklikk - Tilordne hurtigtast
 #170# Mass
-#171# eject
+#171# Eject
 #172# Høyreklikk
 #173# Reset hurtigtast
 #174# Ctrl + Høyreklikk - dekonstruere
@@ -189,27 +189,27 @@
 #187# Hydrogen
 #188# Xenon
 #189# Ice
-#190# fullerite
+#190# Fullerite
 #191# Deuterium
 #192# Uran
 #193# Rocket
 #194# Strøm
 #195# Food
 #196# There is no resource with name
-#197# Can't open build menu
-#198# The current ship doesn't have an engineering bay
-#199# Ut av mat
-#200# kan ikke finne noe mat på skipet!
-#201# Starved død
-#202# har sultet i hjel!
-#203# Warning
+#197# Kan ikke åpne bygge-meny
+#198# Dette skipet har ikke engineering bay
+#199# Tom for mat
+#200# Kan ikke finne noe mat på skipet!
+#201# Død av sult
+#202# Har sultet i hjel!
+#203# Advarsel!
 #204# Last command module cannot be deconstructed
 #205# Automatic movement stopped due manual control
-#206# Warp drive is not ready yet
-#207# Cannot fire
-#208# Rocket launcher is not connected to ammo storage
-#209# Cannot fire
-#210# No ammo in connected storage
+#206# Warp drive er ikke klar enda!
+#207# Kan ikke skyte
+#208# Rocket launcher er ikke koblet til container
+#209# Kan ikke skyte
+#210# Ingen ammunisjon i tilkoblet container
 #211# Auto pilot - aktivert
 #212# Auto pilot - deaktivert
 #213# Velg et skip
@@ -224,11 +224,11 @@
 #222# LAGRE FEIL
 #223# Saving ble ikke fullført på grunn av intern feil.
 #224# Utilstrekkelige studiepoeng
-#225# Ships bør være forankret sammen
-#226# Storage er tom
+#225# Skip bør være forankret sammen
+#226# Lageret er tomt
 #227# Dette trader ikke krever
 #228# Kan ikke selge den. Lagringen er full
-#229# enheter
+#229# Enheter
 #230# ble solgt for
 #231# enheter
 #232# ble kjøpt for
@@ -502,7 +502,7 @@
 #500# Returnerer skipet tilbake til star-systemet, eller signalet vil være tapt i 60 sekunder
 #501# Signal tapt
 #502# skipet tapt i verdensrommet utenfor stjerners system
-#503# Plassering av center of fremstøt i forhold til sentrum av masse
+#503# Plassering av senter av thrust i forhold til sentrum av masse
 #504# Warp drive deaktivert
 #505# Ikke nok strøm
 #506# Torpedo Launcher
@@ -528,36 +528,36 @@ Hold høyre museknapp og dra musen for å rotere visningen
 
 Du kan rotere skipet ditt med tastene A og D. Prøv å rotere skipet ditt litt til venstre og høyre.
 #524# Oppmerksom på at skipet ligger i vakuum, det er ingen air friksjon, så det vil holde sin linier og angular velocity unil du vil stoppe det manuelt.
-#525# Automatisk stabilisering er veldig nyttig hvis du ønsker å stoppe rotasjonen av skipet. Aktivere stabilizator ved å trykke på highlitted knappen eller hurtigtast
+#525# Automatisk stabilisering er veldig nyttig hvis du ønsker å stoppe rotasjonen av skipet. Aktivere stabilisator ved å trykke på den merkede knappen eller hurtigtast
 #526# Mens stabilisatoren er aktiv, vil den automatisk bruke et motorer for å stoppe rotasjonen av skipet.
 
 Imidlertid gjøre oppmerksom på at din drivstoff er begrenset. Disse grunnleggende manøvrering motorer bruker flytende hydrogen. Ditt nåværende mengden av luquid hydrogen som vises på skjermen (highligther ved pilen)
 #527# Mens stabilzier er aktiv, det vil stoppe rotasjonen hver gang, selv om du ikke virkelig trenger det, vil dette øke forbruket av drivstoff. så det kan være nyttig å deaktivere stabilizrer hvis du ikke trenger det.
 
-Deaktiver stbilizer ved å trykke på R hurtigtast.
+Deaktiver stabilisator ved å trykke på R hurtigtast.
 #528# Nå prøve å flytte skipet ditt litt hjelp av tastene W E Q E for å flytte den fremover, bakover, venstre og høyre.
 #529# Nå zoome ut et kamera og observere nærmeste planeten og dens surroindings.
 
-Du probabli lagt merke til at skipet ikke bo på ett sted. Skipet roterer på bane rundt planeten.
+Du har sikkert lagt merke til at skipet ikke står på ett sted. Skipet roterer i bane rundt planeten.
 #530# Tross orbital mekaniker, i dette spillet, bevegelse er mye enklere enn i den virkelige verden.
 
 La oss prøve å nærme til nærliggende asteroide.
-Velg highclickted asteroide ved museklikk.
-#531# Nå vise relativ hastighet
-#532#, Mens dette verktøyet er aktivt, og du har valgt en objekter, vil du se to piler i nærheten av skipet.
+Velg den merkede asteroiden med museklikk.
+#531# Nå vises relativ hastighet
+#532#, Mens dette verktøyet er aktivt, og du har valgt et objekt, vil du se to piler i nærheten av skipet.
 
-Hvite pilen - retning til utvalgte mål
-Orrange pil - fartsvektoren av skipet i forhold til utvalgte mål
-#533# Nå, for å tilnærming til utvalgte mål, begynner å flytte skipet ditt mot et mål.
+Hvit pil - retning til utvalgte mål
+Oransje pil - fartsvektoren av skipet i forhold til utvalgte mål
+#533# Nå, for å tilnærming til utvalgte mål, begynn å flytte skipet ditt mot et mål.
 
-Du må justere orrange pil med samme retning som hvite pilen.
-#534# God. Når to piler justert, det betyr at skipet beveger seg rett mot målet.
+Du må justere oransje pil til samme retning som hvite pilen.
+#534# Bra. Når to piler justert, det betyr at skipet beveger seg rett mot målet.
 
-Holde et øye på avstand til målet. Du må ikke knuse inn i den.
-Når du vil nærme, avta din skipet til gul pil wil ble svært kort. Det vil si at deres relative hastigheten er nesten null.
+Holde et øye på avstanden til målet. Du må ikke krasje inn i den.
+Når du vil nærme, senk farten på skipet til gul blir kortere enn den hvite. Det vil si at deres relative hastigheten er nesten null.
 
 Tilnærming til utvalgte mål og stoppe skipet i nærheten av det.
-#535# God. La oss prøve igjen en annen asteroide.
+#535# Bra. La oss prøve igjen en annen asteroide.
 #536# Flytte skipet ditt for å highlighter asteroide.
 #537# Og enda en gang.
 
@@ -675,9 +675,9 @@ Manuell kontroll vil deaktivere denne modusen.
 #603# Base plattform for våpen. I stand til å rotere festet våpen i forskjellige retninger innenfor visse vinkler.
 
 Kan styres manuelt eller automatisk modus.
-I automatisk modus vil automatisk angripe angitte mål.
-#604# Mest våpen bør plasseres på denne modulen.
-#605# Viktig modul som lar deg dock med andre skip eller stasjoner, spesielt hvis de tilhører andre grupper.
+I automatisk modus vil skipet automatisk angripe angitte mål.
+#604# Våpen bør plasseres på denne modulen.
+#605# Viktig modul som lar deg dokke med andre skip eller stasjoner, spesielt hvis de tilhører andre grupper.
 #606# Tillater deg å enkelt finne og velge forskjellige objekter innenfor angitt område. Spesielt nyttig hvis du trenger til å detektere små objekter, slik som avfall eller små asteroider.
 #607# Enkle strukturelle delen.
 #608# Kan brukes som lagringsplass for solid ressurser.
